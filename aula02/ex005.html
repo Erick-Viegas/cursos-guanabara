@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com dom</title>
+    <style>
+        body{
+            background-color: rgb(0, 64, 255);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">estudos com dom</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatibus fuga quo corporis ad delectus voluptatem asperiores similique accusamus nostrum quod veniam blanditiis, aspernatur laborum qui iusto? Tempore, dignissimos dolorem.</p>
+    <p>aqui vai o resultado</p>
+
+    <div id="msg">clique em mim</div>
+
+    <script>
+
+        var corpo = window.document.body
+    var p1 = window.document.getElementsByTagName('h1')[0]
+    
+    var d = window.document.getElementById('msg')
+    d.style.color = 'red'
+ var h = document.getElementById('titulo')
+ h.style.color = "red"
+   
+var p2 = window.document.getElementsByTagName('p')[1]
+p2.style.color = "black"
+p2.style.background = "white"
+
+
+    </script>
+</body>
+</html>
