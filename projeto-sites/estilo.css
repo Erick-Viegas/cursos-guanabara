@@ -18,10 +18,13 @@ padding: 15px;
 font-weight: bolder;
 margin: auto;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.557);
-text-align: center;
+
 
 }
-
+ #foto{
+     text-align: center;
+     margin: auto;
+ }
 footer{
 text-align: center;
 font-style: italic;
@@ -34,8 +37,12 @@ div{
 a{
     color: rgb(227, 227, 227);
     text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+    
 }
 
 a:hover{
     text-decoration: underline;
 }
+
