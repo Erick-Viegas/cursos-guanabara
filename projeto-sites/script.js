@@ -16,11 +16,11 @@ if (hora >= 5 && hora <= 12) {
 } else if (hora >= 13 && hora <= 18) {
  img.src = 'imagens/tarde.webp'
  document.body.style.background = '#ff7323'
- img.style.width = '425px'
+ img.style.width = '375px'
 } else {
  img.src = 'imagens/noite.jpg'
  document.body.style.background = '#0b0034'
- img.style.width = '425px'
+ img.style.width = '375px'
 } 
 if (hora >= 5 && hora <= 12) {
 var dia = window.document.getElementById('manha')
