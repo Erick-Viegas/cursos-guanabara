@@ -7,10 +7,6 @@ var img = window.document.getElementById('imagem')
  var minuto = data.getMinutes()
  var segundo = data.getSeconds()
 
-var hora = 
- var minuto = 40
- var segundo = 238
-
 msg.innerHTML = `Agora são ${hora} Horas ${minuto} minutos e ${segundo} segundos`
 
 if (hora >= 5 && hora <= 12) {
