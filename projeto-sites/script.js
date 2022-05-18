@@ -13,7 +13,7 @@ msg.innerHTML = `Agora são ${hora} Horas ${minuto} minutos e ${segundo} segundo
 if (hora >= 5 && hora <= 11) {
  img.src = 'imagens/manhã.jpg'
  document.body.style.background = '#ff8000'
-
+ img.style.width = '375px'
 } else if (hora >= 12 && hora <= 17) {
  img.src = 'imagens/tarde.webp'
  document.body.style.background = '#fff71c'
@@ -22,6 +22,7 @@ if (hora >= 5 && hora <= 11) {
  img.src = 'imagens/noite.jpg'
  document.body.style.background = '#0b0034'
  img.style.width = '375px'
+
 } 
 if (hora >= 5 && hora <= 11) {
 var dia = window.document.getElementById('manha')
@@ -36,5 +37,6 @@ if (hora >= 12 && hora <= 17) {
 if (hora >= 18 && hora <= 23) {
     var dia = window.document.getElementById('noite')
     dia.innerHTML = "Boa noite!"
+   
 }
 }
