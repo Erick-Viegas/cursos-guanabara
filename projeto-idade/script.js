@@ -17,6 +17,7 @@ function verificar() {
         if (fsex[0].checked) {
             genero = 'Masculino'
 
+            document.body.style.background = 'blue'
             if(idade >= 0 && idade < 10) {
                 //criança
                 img.setAttribute('src', 'imagens/foto-bebe-m.png')
@@ -35,6 +36,7 @@ function verificar() {
             }
         } else if (fsex[1].checked) {
             genero = 'Feminino'
+            document.body.style.background = 'pink'
 
             if(idade >= 0 && idade < 10) {
                 //criança 
