@@ -22,7 +22,28 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.557);
 
 }
 
+#txtano {
+    padding: 4px;
+    box-shadow: 0px 1px 3px black;
+}
+
+#txtano:hover {
+    background-color: darkgray;
+    transition-duration: 0.5s;
+}
+#verificar {
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    
+}
  
+#verificar:hover {
+    background-color: darkgrey;
+    transition-duration: 0.5s;
+}
+
+
 footer{
 text-align: center;
 font-style: italic;
