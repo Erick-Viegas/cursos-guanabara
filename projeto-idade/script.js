@@ -4,7 +4,7 @@ function verificar() {
     let fano = document.getElementById('txtano') //formulario ano
     let res = document.querySelector('div#res')
 
-    if (fano.value == 0) {
+    if (fano.value == 0 || fano.value < 1900 || fano.value > ano) {
         window.alert('[ERRO] verifique os dados')
     } else {
         let fsex = document.getElementsByName('radsex')
