@@ -22,3 +22,15 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+p > #botao {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: white;
+}
+
+p > #botao:hover {
+    background-color: lightslategray;
+    transition-duration: 0.3s;
+} 
