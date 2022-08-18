@@ -1,0 +1,15 @@
+github.com/gustavoguanabarra
+
+UTF-8?
+
+armazenamento: megabyte, gigabyte, terabyte.
+
+transmissão: exemplo: internet, megabit, gigabit.
+
+paleta de cores:
+
+monocromático, 
+
+cor primária da logo do cliente
+
+ width-largura height- altura
