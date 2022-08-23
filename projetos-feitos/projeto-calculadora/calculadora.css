@@ -34,6 +34,7 @@
 
 .botao:hover {
     background-color: black;
+    transition-duration: 0.1s;
 }
 
 #resultado {
@@ -41,4 +42,18 @@
     width: 207;
     height: 30px;
     margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(31,31,31);
+    transition-duration: 0.3s;
+    text-decoration: underline;
 }
